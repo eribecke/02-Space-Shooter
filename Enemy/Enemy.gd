@@ -9,7 +9,7 @@ var wobble = 30.0
 var health = 1
 
 var Effects = null
-onready var Bullet = load("res://Enemy/Bullet.tscn")
+onready var Bullet = load("res://Enemy/Enemy_Bullet.tscn")
 onready var Explosion = load("res://Effects/Explosion.tscn")
 
 func _ready():
